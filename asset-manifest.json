@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Travel_Landing-pg/static/css/main.da27fbbc.css",
+    "main.js": "/Travel_Landing-pg/static/js/main.652c1568.js",
+    "static/media/photo3.png": "/Travel_Landing-pg/static/media/photo3.a3162c67e3366b070360.png",
+    "static/media/map_overlay.png": "/Travel_Landing-pg/static/media/map_overlay.0203b49cd916de6785b6.png",
+    "static/media/stay6.png": "/Travel_Landing-pg/static/media/stay6.541301fbbdec49b072b3.png",
+    "static/media/photo.png": "/Travel_Landing-pg/static/media/photo.0a2133d2342737a1875c.png",
+    "static/media/stay4.png": "/Travel_Landing-pg/static/media/stay4.e17a4caf27f191eebd25.png",
+    "static/media/stay3.png": "/Travel_Landing-pg/static/media/stay3.be017659c96ec8bf215d.png",
+    "static/media/photo2.png": "/Travel_Landing-pg/static/media/photo2.90893b5985af5736daab.png",
+    "static/media/stay2.png": "/Travel_Landing-pg/static/media/stay2.784b5fb8d855a9b5c7fe.png",
+    "static/media/stay1.png": "/Travel_Landing-pg/static/media/stay1.1e3c0b993f4313b48aeb.png",
+    "static/media/stay5.png": "/Travel_Landing-pg/static/media/stay5.8ab3fe68899cddbac943.png",
+    "static/media/footer.png": "/Travel_Landing-pg/static/media/footer.c41ad391c7d1ad94d4c4.png",
+    "static/media/upperimage.png": "/Travel_Landing-pg/static/media/upperimage.840f14a55f51084b59fd.png",
+    "static/media/map.png": "/Travel_Landing-pg/static/media/map.3c331e27a4899e5feb33.png",
+    "static/media/proflie2.png": "/Travel_Landing-pg/static/media/proflie2.6169674b45ee271977a0.png",
+    "static/media/proflie3.png": "/Travel_Landing-pg/static/media/proflie3.3978f9b641f058547240.png",
+    "static/media/profile.png": "/Travel_Landing-pg/static/media/profile.832b6ad00f56d7a7e36a.png",
+    "index.html": "/Travel_Landing-pg/index.html",
+    "main.da27fbbc.css.map": "/Travel_Landing-pg/static/css/main.da27fbbc.css.map",
+    "main.652c1568.js.map": "/Travel_Landing-pg/static/js/main.652c1568.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da27fbbc.css",
+    "static/js/main.652c1568.js"
+  ]
+}
