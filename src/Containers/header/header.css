@@ -1,0 +1,118 @@
+.travel__header{
+    display: flex;
+    background: var(--gradient-bar);
+}
+.travel__header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 5rem;
+}
+.travel__header-content_button {
+    margin-top: 1rem;
+}
+.travel__header-content_visit {
+    display: flex;
+    font-family: var(--font-family);
+    justify-content: space-around;
+    align-items: center;
+    background-color: #D2F4FF;
+    border-radius: 10%;
+}
+.travel__header-content_visit p {
+    padding: 10px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 140%;
+}
+.travel__header-content_visit img {
+    width: 65px;
+    padding: 0px 18px;
+}
+.travel__header-content h1 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 140%;
+}
+.travel__header-content_button button{
+    font-family: var(--font-family);
+    font-size: 20px;
+    line-height: 27px;
+    cursor: pointer;
+    color: #3282AD;
+    outline: none;
+    padding: 1rem;
+    border: 1px solid #3282AD;
+    background-color: white;
+}
+.travel__header-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 38vw;
+}
+.map{
+    width: 50vw;
+}
+@media screen and (max-width:1600px){
+    /* .travel__header {
+        height: 50vh;
+    } */
+    .travel__header-content_visit p {
+        padding: 5px;
+        font-size: 20px;
+    }
+    .travel__header-content_visit img {
+        width: 43px;
+        padding: 0px 10px;
+    }
+    .travel__header-content h1 {
+        font-size: 60px;
+    }
+    /* .map {
+        width:53vw;
+    } */
+}
+@media screen and (max-width:1050px) {
+    .travel__header-content{
+        margin-right: 2rem;
+    }
+    .travel__header-content h1 {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:700px) {
+    .travel__header-content h1 {
+        font-size: 28px;
+    }
+    .travel__header-content_button button {
+        font-size: 11px;
+        line-height: 15px;
+        padding: 10px;
+    }
+}
+@media screen and (max-width:550px) {
+    .travel__header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .travel__header-content{
+        margin-right: 0;
+        align-items: center;
+    }
+    .travel__header-content_visit p {
+        padding: 12px;
+        font-size: 28px;
+    }
+    .travel__header-content h1{
+        font-size: 30px;
+        width: 100%;
+        height: 100%;
+        margin-top: 15px;
+    }
+}

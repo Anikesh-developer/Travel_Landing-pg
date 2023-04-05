@@ -1,0 +1,153 @@
+.travel__selectdate-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.travel__selectdate-boxeffect{
+    background: rgb(255,255,255 , 0.06);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, .37);
+    border-radius: 10px;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+}
+.travel__selectdate-heading {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 3rem;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 27px;
+    font-family: var(--font-family);
+}
+.travel__selectdate-content input {
+    margin: 0px 5rem;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 20px;
+    font-family: 'Montserrat';
+    background: rgb(255,255,255 , 0.06);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, .37);
+    border-radius: 10px;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    padding: 10px;
+}
+.label {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 20px;
+    font-family: 'Montserrat';
+    padding: 5px;
+}
+.travel__place option {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 20px;
+    font-family: 'Montserrat';
+}
+.select{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 20px;
+    font-family: 'Montserrat';
+    background: rgb(255,255,255 , 0.06);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, .37);
+    border-radius: 10px;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    padding: 10px;
+}
+.travel__promo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 40px;
+}
+.travel__promo-code {
+    margin-right: 20px;
+    padding: 10px;
+    border: none;
+    background-color: white;
+    font-family: 'Montserrat';
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 17px;
+}
+.travel__promo-flights {
+    margin: 4px 12px;
+    padding: 15px;
+    background-color: #3282AD;
+    font-family: 'Montserrat';
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 17px;
+    border: 2px solid #3282AD;
+    border-radius: 50px;
+    color: white;
+}
+@media screen and (max-width:1590px) {
+    .travel__selectdate-content input {
+        margin: 0px 3rem;
+        font-size: 16px;
+    }
+    .select {
+        font-size: 16px;
+    }
+    .label {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:1080px) {
+    .travel__selectdate-content input {
+        margin: 0 1rem;
+    }
+}
+@media screen and (max-width:992px) {
+    .travel__selectdate-content input {
+        margin: 2rem 0;
+        padding: 5px;
+        width: 50%;
+    }
+    .travel__selectdate-content{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .travel__place , .travel__class {
+        display: flex;
+        justify-content: center;
+    }
+    .label {
+        font-size: 10px;
+    }
+    .select {
+        padding: 5px;
+    }
+}
+@media screen and (max-width:550px) {
+    .travel__selectdate-heading {
+        font-size: 20px;
+        margin: 2rem;
+    }
+    .select {
+        font-size: 10px;
+    }
+    .travel__promo-code {
+        font-size: 16px;
+    }
+    .travel__promo-flights{
+        font-size: 16px;
+    }
+    .travel__promo-code {
+        font-size: 12px;
+        padding: 5px;
+    }
+    .travel__promo-flights {
+        font-size: 12px;
+        padding: 5px;
+    }
+}

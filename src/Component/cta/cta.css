@@ -1,0 +1,116 @@
+.travel__cta {
+    display: flex;
+}
+.travel__cta-content {
+    flex: 1 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #42A7C3;
+    opacity: 0.9;
+    border-radius: 15px;
+}
+.travel__cta-content__heading {
+    width: 38%;
+}
+.travel__cta-content__heading h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    padding: 10px;
+    font-family: var(--font-family);
+    color: white;
+}
+.travel__cta-content__heading h3 {
+    color: white;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: var(--font-family);
+}
+.travel__cta-map img {
+    width: 48vw;
+    height: 44vh;
+}
+.travel__cta-button {
+    width: 120px;
+    height: 40px;
+    padding: 3px 6px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 18px;
+    letter-spacing: 0.03em;
+    font-family: var(--font-family);
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+@media screen and (max-width:950px) {
+    .travel__cta-content__heading {
+        width: 30%;
+    }
+    .travel__cta-content__heading h1 {
+        font-size: 25px;
+        padding: 10px;
+        line-height: 30px;
+    }
+    .travel__cta-content__heading h3 {
+        padding: 10px;
+    }
+    .travel__cta-map img {
+        width: 50vw;
+        height: 40vh;
+    }
+    .travel__cta-button {
+        width: 100px;
+        height: 35px;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:760px) {
+    .travel__cta-content__heading {
+        width: 28%;
+    }
+    .travel__cta-content__heading h1 {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .travel__cta-content__heading h3 {
+        line-height: 20px;
+        font-size: 13px;
+    }
+    .travel__cta-button {
+        width: 90px;
+        height: 30px;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:700px) {
+    .travel__cta-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+    }
+    .travel__cta-content__heading {
+        width: 100%;
+    }
+    .travel__cta-content__heading h1 {
+        font-size: 20px;
+        margin: 0px 34px;
+    }
+    .travel__cta-content__heading h3 {
+        font-size: 16px;
+    }
+    .travel__cta-map img {
+        height: 25vh;
+        width: 64vw;
+    }
+    .travel__cta-button {
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,168 @@
+.travel__clients-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.travel__clients-content__heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 64px;
+}
+.travel__clients-content__heading h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    font-family: var(--font-family);
+}
+.travel__clients-content__heading h3 {
+    color: #A2A8AB;
+}
+.travel__clients__cards {
+    display: flex;
+    cursor: pointer;
+}
+.travel__clients-content__cards {
+    display: flex;
+    align-items: center;
+    max-width: 16rem;
+    background-color: #fff;
+    padding: 2.5rem;
+    margin: 0px 30px;
+    box-shadow: 0 1.4rem 8rem rgba(0, 0, 0, 0.2);
+    border-radius: 0.8rem;
+    flex-direction: column;
+}
+.travel__clients-content__cards-stars{
+    margin-top: 20px;
+}
+.travel__clients-content__cards-places {
+    width: 50%;
+    height: 35%;
+    object-fit: cover;
+}
+.travel__clients-content__cards-places img {
+    width: 100%;
+}
+.travel__clients-content__cards-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.travel__clients-content__cards-info span {
+    margin-bottom: 45px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #555555;
+    font-family: 'Inter';
+}
+.travel__clients-content__cards-title {
+    font-weight: 600;
+    font-size: 22px;
+    color: #222222;
+    margin: 0.5rem 0 1rem;
+    text-transform: uppercase;
+    font-family: 'Inter';
+}
+.travel__clients-content__cards-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--font-family);
+    color: #5A5A5A;
+}
+.travel__clients-content__dot {
+    display: flex;
+    margin-top: 20px;
+}
+#dark {
+    background-color: #3282AD;
+}
+.travel__clients-content__circle {
+    border: 1px solid #3282AD;
+    border-radius: 50%;
+    margin: 0px 5px;
+    width: 20px;
+    height: 20px;
+}
+@media screen and (max-width:950px) {
+    .travel__clients-content__heading h1 {
+        font-size: 26px;
+        line-height: 30px;
+        margin-bottom: 45px;
+    }
+    .travel__clients-content__cards {
+        padding: 1.5rem;
+    }
+    .travel__clients-content__cards-places {
+        width: 46%;
+        height: 24%;
+    }
+    .travel__clients-content__cards-title {
+        font-size: 16px;
+    }
+    .travel__clients-content__cards-subtitle {
+        font-size: 12px;
+    }
+    .travel__clients-content__cards-info span {
+        margin-bottom: 34px;
+        font-size: 12px;
+    }
+    .travel__clients-content__cards-stars {
+        width: 100%;
+    }
+}
+@media screen and (max-width:690px) {
+    .travel__clients-content__heading {
+        margin-bottom: 30px;
+    }
+    .travel__clients-content__heading h1 {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .travel__clients-content__cards {
+        padding: 10px;
+    }
+    .travel__clients-content__cards-title {
+        font-size: 10px;
+    }
+    .travel__clients-content__cards-subtitle {
+        font-size: 8px;
+    }
+    .travel__clients-content__cards-info span {
+        margin-bottom: 20px;
+        font-size: 8px;
+    }
+    .travel__clients-content__cards-stars {
+        width: 80%;
+    }
+}
+@media screen and (max-width:500px) {
+    .travel__clients__cards{
+        flex-direction: column;
+    }
+    .travel__clients-content__heading h1 {
+        font-size: 14px;
+        margin-bottom: 15px;
+        line-height: 15px;
+    }
+    .travel__clients-content__cards {
+        margin: 10px;
+    }
+    .travel__clients-content__cards-title {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    .travel__clients-content__cards-subtitle{
+        font-size: 12px;
+    }
+    .travel__clients-content__cards-info span {
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+    .travel__clients-content__cards-stars {
+        width: 50%;
+    }
+}
