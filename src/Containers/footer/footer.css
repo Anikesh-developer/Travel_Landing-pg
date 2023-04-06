@@ -24,3 +24,8 @@
     position: relative;
     top: 20px;
 }
+@media screen and (max-width:500px) {
+    .travel__footer-content__upperimage img {
+        top: 70px;
+    }
+}
