@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Travel_Landing-pg/static/css/main.a4491a3e.css",
-    "main.js": "/Travel_Landing-pg/static/js/main.e147a4cc.js",
+    "main.js": "/Travel_Landing-pg/static/js/main.8732ecff.js",
     "static/media/photo3.png": "/Travel_Landing-pg/static/media/photo3.a3162c67e3366b070360.png",
     "static/media/places.png": "/Travel_Landing-pg/static/media/places.b71603dee3111c04b290.png",
     "static/media/map_overlay.png": "/Travel_Landing-pg/static/media/map_overlay.0203b49cd916de6785b6.png",
@@ -25,10 +25,10 @@
     "static/media/Circlebig.png": "/Travel_Landing-pg/static/media/Circlebig.58c78f4f5ea1392be985.png",
     "index.html": "/Travel_Landing-pg/index.html",
     "main.a4491a3e.css.map": "/Travel_Landing-pg/static/css/main.a4491a3e.css.map",
-    "main.e147a4cc.js.map": "/Travel_Landing-pg/static/js/main.e147a4cc.js.map"
+    "main.8732ecff.js.map": "/Travel_Landing-pg/static/js/main.8732ecff.js.map"
   },
   "entrypoints": [
     "static/css/main.a4491a3e.css",
-    "static/js/main.e147a4cc.js"
+    "static/js/main.8732ecff.js"
   ]
 }
