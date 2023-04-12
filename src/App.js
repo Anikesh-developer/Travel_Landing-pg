@@ -9,15 +9,15 @@ const App = () => {
   return (
     <Router >
       <div className='App'>
-        <Routes><Route path='/about-us' Component={Aboutus}></Route></Routes>
-        <Routes><Route path='/' Component={Navbar}></Route></Routes>
-        <Routes><Route path='/' Component={Header}></Route></Routes>
-        <Routes><Route path='/' Component={SelectDate}></Route></Routes>
-        <Routes><Route path='/' Component={Package}></Route></Routes>
-        <Routes><Route path='/' Component={Stays}></Route></Routes>
-        <Routes><Route path='/' Component={CTA}></Route></Routes>
-        <Routes><Route path='/' Component={Clients}></Route></Routes>
-        <Routes><Route path='/' Component={Footer}></Route></Routes>
+        <Routes><Route path='/Travel_Landing-pg/about-us' Component={Aboutus}></Route></Routes>
+        <Routes><Route path='/Travel_Landing-pg' Component={Navbar}></Route></Routes>
+        <Routes><Route path='/Travel_Landing-pg' Component={Header}></Route></Routes>
+        <Routes><Route path='/Travel_Landing-pg' Component={SelectDate}></Route></Routes>
+        <Routes><Route path='/Travel_Landing-pg' Component={Package}></Route></Routes>
+        <Routes><Route path='/Travel_Landing-pg' Component={Stays}></Route></Routes>
+        <Routes><Route path='/Travel_Landing-pg' Component={CTA}></Route></Routes>
+        <Routes><Route path='/Travel_Landing-pg' Component={Clients}></Route></Routes>
+        <Routes><Route path='/Travel_Landing-pg' Component={Footer}></Route></Routes>
       </div>
     </Router>
   )
