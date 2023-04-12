@@ -2,13 +2,14 @@ import React , {useState} from 'react';
 import logo from '../../assests/logo.png';
 import './navbar.css';
 import {RiMenu3Line , RiCloseLine} from 'react-icons/ri';
+import { Link } from 'react-router-dom';
 
 const Menu = () => (
     <>
     <p><a href='#'>Find Reservation</a></p>
     <p><a href='#'>Packages</a></p>
     <p><a href='#'>About  Lakshadweep</a></p>
-    <p><a href='#Clients'>About Us</a></p>
+    <p id='aboutus'><Link to="about-us">About Us</Link></p>
     <p><a href='#'>Gol</a></p>
     <p><a href='#'>Support</a></p>
     </>

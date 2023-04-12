@@ -2,9 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 2rem;
     background: var(--gradient-bar);
     flex-wrap: wrap;
+    padding: 2rem;
     background-attachment: fixed;
 }
 .travel__navbar-links {
@@ -48,7 +48,7 @@
     padding: 5px 8px;
     font-family: var(--font-family);
     font-weight: 600;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 140%;
     cursor: pointer;
 }
@@ -58,10 +58,10 @@
     border: 1px solid rgba(5, 100, 153, 0.8);
     border-radius: 44px;
     color: white;
-    padding: 5px 8px;
+    padding: 5px 18px;
     font-family: var(--font-family);
     font-weight: 600;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 140%;
     cursor: pointer;
 }

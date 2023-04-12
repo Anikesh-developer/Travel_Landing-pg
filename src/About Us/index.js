@@ -1,0 +1,1 @@
+export {default as Aboutus} from '../About Us/Aboutus';
