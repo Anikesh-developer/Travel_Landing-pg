@@ -37,7 +37,7 @@
     text-decoration: none;
     color: #3A3A3A;
 }
-.travel__navbar-links__container p a :hover {
+.travel__navbar-links__container p :hover {
     border-bottom: 4px solid  #3282AD;
 }
 .travel__navbar-signin  {
