@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     background: var(--gradient-bar);
-    height: 90vh;
+    height: 100vh;
 }
 /* #aboutus {
     border-bottom: 4px solid #3282AD;
@@ -205,29 +205,39 @@
     }
 }
 @media screen and (max-width:650px) {
+    .travel__aboutus-team__about-image img {
+        height: 36vh;
+    }
+    .travel__aboutus-customer__heading {
+        padding-left: 3rem;
+    }
     .travel__aboutus-content__heading {
-        font-size: 25px;
-        width: 101px;
+        font-size: 20px;
+        width: 81px;
     }
     .travel__aboutus-team__title {
-        font-size: 25px;
-        line-height: 50px;
+        font-size: 20px;
+        line-height: 40px;
     }
     .travel__aboutus-team__subtitle {
         font-size: 12px;
     }
     .travel__aboutus-customer__heading-title {
-        font-size: 16px;
+        font-size: 12px;
     }
     .travel__aboutus-customer__heading-subtitle {
         font-weight: 200;
     }
     .travel__aboutus-customer__comment-user h2 {
-        font-size: 16px;
-        line-height: 20px;
+        font-size: 12px;
+        line-height: 18px;
     }
     .travel__aboutus-cert__content-title {
-        font-size: 25px;
-        line-height: 50px;
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .travel__aboutus-cert__cards {
+        grid-gap:1rem;
+        margin-top: 3rem;
     }
 }

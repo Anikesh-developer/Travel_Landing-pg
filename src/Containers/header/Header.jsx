@@ -4,7 +4,7 @@ import Vector from '../../assests/Vector.png';
 import map_overlay from "../../assests/map_overlay.png";
 const Header = () => {
   return (
-    <div className='travel__header section__padding'>
+    <div className='travel__header section__padding' id='Header'>
       <div className='travel__header-content'>
         <div className='travel__header-content_visit'>
           <p>Visit</p>

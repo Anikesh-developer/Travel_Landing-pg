@@ -3,7 +3,7 @@ import './selectdate.css';
 
 const SelectDate = () => {
   return (
-    <div className='travel__selectdate section__padding'>
+    <div className='travel__selectdate section__padding' id='selectdate'>
       <div className='travel__selectdate-boxeffect'>
         <h1 className='travel__selectdate-heading'>Where are you flying?</h1>
         <div className='travel__selectdate-content'>

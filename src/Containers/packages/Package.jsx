@@ -6,7 +6,7 @@ import photo3 from '../../assests/photo3.png';
 
 const Package = () => {
   return (
-    <div className='travel__package section__padding'>
+    <div className='travel__package section__padding' id='Packages'>
       <div className='travel__package-content'>
         <div className='travel__package-content__heading'>
           <h1>Best Packages For You</h1>

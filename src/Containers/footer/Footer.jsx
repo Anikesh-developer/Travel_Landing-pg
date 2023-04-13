@@ -5,7 +5,7 @@ import './footer.css';
 
 const Footer = () => {
   return (
-    <div className='travel__footer'>
+    <div className='travel__footer' id='Footer'>
       <div className='travel__footer-content'>
         <div className='travel__footer-content__upperimage'>
           <img src={upperimage} alt='upperimage' />

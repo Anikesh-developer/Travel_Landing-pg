@@ -6,12 +6,12 @@ import { Link } from 'react-router-dom';
 
 const Menu = () => (
     <>
-    <p><a href='#'>Find Reservation</a></p>
-    <p><a href='#'>Packages</a></p>
-    <p><a href='#'>About  Lakshadweep</a></p>
+    <p><a href='#selectdate'>Find Reservation</a></p>
+    <p><a href='#Packages'>Packages</a></p>
+    <p><a href='#Header'>About  Lakshadweep</a></p>
     <p id='aboutus'><Link to="about-us">About Us</Link></p>
-    <p><a href='#'>Gol</a></p>
-    <p><a href='#'>Support</a></p>
+    <p><a href='#Clients'>Gol</a></p>
+    <p><a href='#Footer'>Support</a></p>
     </>
   )
 
