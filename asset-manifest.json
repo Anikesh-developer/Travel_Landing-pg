@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Travel_Landing-pg/static/css/main.421b4819.css",
+    "main.css": "/Travel_Landing-pg/static/css/main.c566fcc1.css",
     "main.js": "/Travel_Landing-pg/static/js/main.b151fff6.js",
     "static/media/photo3.png": "/Travel_Landing-pg/static/media/photo3.a3162c67e3366b070360.png",
     "static/media/places.png": "/Travel_Landing-pg/static/media/places.b71603dee3111c04b290.png",
@@ -24,11 +24,11 @@
     "static/media/profile.png": "/Travel_Landing-pg/static/media/profile.832b6ad00f56d7a7e36a.png",
     "static/media/Circlebig.png": "/Travel_Landing-pg/static/media/Circlebig.58c78f4f5ea1392be985.png",
     "index.html": "/Travel_Landing-pg/index.html",
-    "main.421b4819.css.map": "/Travel_Landing-pg/static/css/main.421b4819.css.map",
+    "main.c566fcc1.css.map": "/Travel_Landing-pg/static/css/main.c566fcc1.css.map",
     "main.b151fff6.js.map": "/Travel_Landing-pg/static/js/main.b151fff6.js.map"
   },
   "entrypoints": [
-    "static/css/main.421b4819.css",
+    "static/css/main.c566fcc1.css",
     "static/js/main.b151fff6.js"
   ]
 }
