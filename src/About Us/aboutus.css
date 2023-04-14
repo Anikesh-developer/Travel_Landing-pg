@@ -182,9 +182,6 @@
     width: 100%;
 }
 @media screen and (max-width:1500px) {
-    .travel__aboutus-content {
-        height: 38vh;
-    }
     .travel__aboutus-customer {
         margin-right: 5rem;
     }
