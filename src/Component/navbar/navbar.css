@@ -96,14 +96,15 @@
     margin: 1rem 0;
 }
 .travel__navbar-menu_container a {
-    width: 132px;
-    height: 22px;
     font-family: var(--font-family);
-    font-weight: 400;
+    font-weight: bold;
     font-size: 16px;
     line-height: 140%;
     text-decoration: none;
     color: black;
+}
+.travel__navbar-menu_container p :hover {
+    border-bottom: 4px solid #3282AD;
 }
 .travel__navbar-menu_container-links-sign {
     display: none;
@@ -121,7 +122,7 @@
         padding: 2rem 4rem;
     }
 } 
-@media screen and (max-width:550px) {
+@media screen and (max-width:560px) {
     .travel__navbar{
         padding: 2rem;
     }

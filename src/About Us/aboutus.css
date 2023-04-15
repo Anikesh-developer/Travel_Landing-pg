@@ -182,6 +182,13 @@
     width: 100%;
 }
 @media screen and (max-width:1500px) {
+    .travel__aboutus-content {
+        height: 80vh;
+    }
+    .travel__aboutus-content__heading {
+        font-size: 45px;
+        width: 183px;
+    }
     .travel__aboutus-customer {
         margin-right: 5rem;
     }
@@ -190,6 +197,20 @@
     }
 }
 @media screen and (max-width:950px) {
+    .travel__aboutus-content {
+        height: 50vh;
+    }
+    .travel__aboutus-content__heading {
+        font-size: 40px;
+        width: 163px;
+    }
+    .travel__aboutus-team__title {
+        font-size: 25px;
+        line-height: 50px;
+    }
+    .travel__aboutus-team__subtitle {
+        font-size: 14px;
+    }
     .travel__aboutus-team__about {
         flex-direction: column;
     }
@@ -200,8 +221,14 @@
         width: 100%;
         height: 45vh;
     }
+    .travel__aboutus-customer {
+        margin-right:4rem;
+    }
 }
-@media screen and (max-width:650px) {
+@media screen and (max-width:750px) {
+    .travel__aboutus-content {
+        height: 30vh;
+    }
     .travel__aboutus-team__about-image img {
         height: 36vh;
     }
@@ -217,13 +244,20 @@
         line-height: 40px;
     }
     .travel__aboutus-team__subtitle {
-        font-size: 12px;
+        font-size: 10px;
+        padding-bottom: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .travel__aboutus-customer {
+        margin-right: 3rem;
     }
     .travel__aboutus-customer__heading-title {
         font-size: 12px;
     }
     .travel__aboutus-customer__heading-subtitle {
-        font-weight: 200;
+        font-weight: 100;
+        font-size: 10px;
     }
     .travel__aboutus-customer__comment-user h2 {
         font-size: 12px;
@@ -236,5 +270,43 @@
     .travel__aboutus-cert__cards {
         grid-gap:1rem;
         margin-top: 3rem;
+    }
+}
+@media screen and (max-width:450px) {
+    .travel__aboutus-content__heading {
+        font-size: 12px;
+        width: 50px;
+    }
+    .travel__aboutus-team__about-image img {
+        height: 30vh;
+    }
+    .travel__aboutus-customer__heading-subtitle {
+        font-size: 8px;
+    }
+    .travel__aboutus-team__about-bio h1 {
+        font-size: 16px;
+        line-height: 65px;
+    }
+    .travel__aboutus-team__about-bio h2 , .travel__aboutus-team__about-bio p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .travel__aboutus-customer {
+        margin-right: 2rem;
+    }
+    .travel__aboutus-customer__heading-title {
+        font-size: 10px;
+    }
+    .travel__aboutus-customer__comment-user h2 {
+        font-size: 10px;
+        line-height: 12px;
+        padding: 10px;
+    }
+    .travel__aboutus-cert__content-title {
+        font-size: 12px;
+        line-height: 24px;
+    }
+    .travel__aboutus-cert__content-subtitle {
+        font-size: 10px;
     }
 }

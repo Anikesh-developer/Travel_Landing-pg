@@ -110,7 +110,7 @@
     .travel__selectdate-content input {
         margin: 2rem 0;
         padding: 5px;
-        width: 50%;
+        width: 60%;
     }
     .travel__selectdate-content{
         display: flex;
@@ -122,7 +122,7 @@
         justify-content: center;
     }
     .label {
-        font-size: 10px;
+        font-size: 16px;
     }
     .select {
         padding: 5px;
