@@ -82,7 +82,7 @@
     align-items: flex-end;
     flex-direction: column;
     text-align: end;
-    background: var(--gradient-bar);
+    background: linear-gradient(180deg, #c7f0fd 14.25%, rgb(255 255 255 / 91%) 100%);
     padding: 2rem;
     position: absolute;
     top: 40px;

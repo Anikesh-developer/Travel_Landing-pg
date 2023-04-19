@@ -15,7 +15,7 @@ const SelectDate = () => {
               <option>Return</option>
             </select>
           </form>
-          <input type='date'></input>
+          <input type='date' placeholder='date'></input>
           <form className='travel__class'>
             <label className='label'>Select Class</label>
             <select className='select' name='Select option'>

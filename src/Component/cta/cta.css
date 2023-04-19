@@ -10,13 +10,10 @@
     opacity: 0.9;
     border-radius: 15px;
 }
-.travel__cta-content__heading {
-    width: 38%;
-}
 .travel__cta-content__heading h1 {
     font-weight: 700;
-    font-size: 24px;
-    line-height: 50px;
+    font-size: 45px;
+    line-height: 58px;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
@@ -28,13 +25,13 @@
     color: white;
     padding: 10px;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 25px;
+    line-height: 34px;
     font-family: var(--font-family);
 }
 .travel__cta-map img {
-    width: 48vw;
-    height: 44vh;
+    width: 52vw;
+    height: 54vh;
 }
 .travel__cta-button {
     width: 120px;
@@ -49,22 +46,16 @@
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    margin-right: 10px;
 }
-@media screen and (max-width:950px) {
-    .travel__cta-content__heading {
-        width: 30%;
-    }
+@media screen and (max-width:1225px) {
     .travel__cta-content__heading h1 {
-        font-size: 25px;
+        font-size: 40px;
         padding: 10px;
-        line-height: 30px;
+        line-height: 48px;
     }
     .travel__cta-content__heading h3 {
         padding: 10px;
-    }
-    .travel__cta-map img {
-        width: 50vw;
-        height: 40vh;
     }
     .travel__cta-button {
         width: 100px;
@@ -72,25 +63,26 @@
         font-size: 15px;
     }
 }
-@media screen and (max-width:760px) {
-    .travel__cta-content__heading {
-        width: 28%;
-    }
+@media screen and (max-width:1050px) {
     .travel__cta-content__heading h1 {
-        font-size: 13px;
-        line-height: 20px;
+        font-size: 30px;
+        line-height: 42px;
     }
     .travel__cta-content__heading h3 {
-        line-height: 20px;
-        font-size: 13px;
+        line-height: 28px;
+        font-size: 22px;
     }
     .travel__cta-button {
-        width: 90px;
+        width: 100px;
         height: 30px;
-        font-size: 12px;
+        font-size: 16px;
+    }
+    .travel__cta-map img {
+        width: 44vw;
+        height: 42vh;
     }
 }
-@media screen and (max-width:700px) {
+@media screen and (max-width:800px) {
     .travel__cta-content {
         flex-direction: column;
         justify-content: center;
@@ -100,17 +92,26 @@
         width: 100%;
     }
     .travel__cta-content__heading h1 {
-        font-size: 20px;
-        margin: 0px 34px;
+        font-size: 32px;
+        margin: 10px;
+        padding: 0;
+    }
+    .travel__cta-button {
+        margin-bottom: 10px;
+    }
+    .travel__cta-map img {
+        width: 75vw;
+        height: 55vh;
+    }
+}
+@media screen and (max-width:450px) {
+    .travel__cta-content__heading h1 {
+        font-size: 25px;
     }
     .travel__cta-content__heading h3 {
         font-size: 16px;
     }
     .travel__cta-map img {
-        height: 25vh;
-        width: 64vw;
-    }
-    .travel__cta-button {
-        margin-bottom: 10px;
+        height: 40vh;
     }
 }
